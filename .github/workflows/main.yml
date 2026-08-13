@@ -9,6 +9,6 @@ jobs:
     steps:
       - name: basic linux commands
         run: |
-          hostname -steps
-          echo " hi to all"
+          hostname -s
+          echo "hi to all"
           echo "ls -al"
